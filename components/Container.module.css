@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+:global(.light) .container {
+  color: #121212;
+  background-color: #ededed;
+}
